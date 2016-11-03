@@ -7,12 +7,15 @@ var BUILD_PATH = path.resolve(ROOT_PATH, 'build');
 module.exports = {
 	//项目的文件夹 可以直接用文件夹名称 默认会找index.js 也可以确定是哪个文件名字
 	entry: {
-		app: path.resolve(APP_PATH, 'index.jsx')
+		"plain": path.resolve(APP_PATH, 'plain.jsx'),
+		"flux": path.resolve(APP_PATH, 'flux.jsx'),
+		"react-redux": path.resolve(APP_PATH, 'react-redux.jsx'),
+		"redux": path.resolve(APP_PATH, 'redux.jsx'),
 	},
 	//输出的文件名 合并以后的js会命名为bundle.js
 	output: {
 		path: BUILD_PATH,
-		filename: 'bundle.js'
+		filename: '[name].build.js'
 	},
 	devServer: {
 		historyApiFallback: true,

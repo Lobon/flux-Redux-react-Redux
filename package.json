@@ -1,5 +1,5 @@
 {
-  "name": "flux Redux react-Redux example",
+  "name": "flux-Redux-react-Redux-example",
   "version": "1.0.0",
   "description": "flux Redux react-Redux 实例",
   "Keywords": ["flux","Redux","react-Redux"],
@@ -19,7 +19,7 @@
   "Repository": {
     "type": "git",
     "url": "https://github.com/jianhuatu/flux-Redux-react-Redux.git"
-  }
+  },
   "license": "ISC",
   "devDependencies": {
     "babel": "^6.5.2",
@@ -27,13 +27,13 @@
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
-    "babel-preset-stage-0": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0"
   },
   "dependencies": {
     "jquery": "^3.1.0",
     "flux": "^3.1.0",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
     "react-redux": "^4.4.5",
     "redux": "^3.6.0"
   }

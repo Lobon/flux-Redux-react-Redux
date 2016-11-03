@@ -5,7 +5,7 @@
   "Keywords": ["flux","Redux","react-Redux"],
   "Homepage": "xuexi.tutcw.com",
   "Bugs": {
-    "url" : "https://github.com/jianhuatu/flux-Redux-react-Redux",
+    "url" : "https://github.com/jianhuatu/flux-Redux-react-Redux/issues",
     "email" : "tujianhua123@yeah.net"
   },
   "scripts": {
